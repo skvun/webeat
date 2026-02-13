@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Расписание 11А МИ / МФ</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f8fb;
+}
+
+header {
+    background: linear-gradient(90deg, #1565c0, #26a69a);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.day {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    padding: 18px;
+    border-top: 6px solid #1565c0;
+    transition: 0.3s;
+}
+
+.day h2 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    color: #1565c0;
+}
+
+.day table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.day th {
+    background: #e3f2fd;
+    padding: 8px;
+    font-size: 14px;
+    color: #1565c0;
+}
+
+.day td {
+    padding: 7px;
+    border-bottom: 1px solid #e0f2f1;
+    font-size: 14px;
+    text-align: center;
+}
+
+.day td:first-child {
+    font-weight: bold;
+    color: #26a69a;
+    width: 30px;
+}
+
+.current-day {
+    background: #e8f5f5;
+    border-top: 6px solid #26a69a;
+    transform: scale(1.02);
+}
+</style>
+</head>
+
+<body>
+
+<header>Расписание 11А — группы МИ и МФ</header>
+
+<div class="container">
+
+<!-- ПОНЕДЕЛЬНИК -->
+<div class="day" id="monday">
+<h2>Понедельник</h2>
+<table>
+<tr><th>№</th><th>МИ</th><th>МФ</th></tr>
+<tr><td>1</td><td>Физика 231</td><td>Физика 231</td></tr>
+<tr><td>2</td><td>Русский язык 325</td><td>Русский язык 325</td></tr>
+<tr><td>3</td><td>Ров акт зал</td><td>Информатика 105</td></tr>
+<tr><td>4</td><td>Баш яз 231</td><td>Баш яз 231</td></tr>
+<tr><td>5</td><td>Английский 124/336</td><td>Английский 124/336</td></tr>
+<tr><td>6</td><td>Физика 231</td><td>Физика 231</td></tr>
+</table>
+</div>
+
+<!-- ВТОРНИК -->
+<div class="day" id="tuesday">
+<h2>Вторник</h2>
+<table>
+<tr><th>№</th><th>МИ</th><th>МФ</th></tr>
+<tr><td>1</td><td>Физика 231</td><td>Физика 231</td></tr>
+<tr><td>2</td><td>Алгебра 303</td><td>Алгебра 303</td></tr>
+<tr><td>3</td><td>История 308</td><td>История 308</td></tr>
+<tr><td>4</td><td>География 307</td><td>География 307</td></tr>
+<tr><td>5</td><td>Литература 325</td><td>Литература 325</td></tr>
+<tr><td>6</td><td>Алгебра 303</td><td>Алгебра 303</td></tr>
+<tr><td>7</td><td>Геометрия 303</td><td>Геометрия 303</td></tr>
+<tr><td>8</td><td>Родной язык 325</td><td>Родной язык 325</td></tr>
+</table>
+</div>
+
+<!-- СРЕДА -->
+<div class="day" id="wednesday">
+<h2>Среда</h2>
+<table>
+<tr><th>№</th><th>МИ</th><th>МФ</th></tr>
+<tr><td>1</td><td>Алгебра 303</td><td>Алгебра 303</td></tr>
+<tr><td>2</td><td>Геометрия 303</td><td>Геометрия 303</td></tr>
+<tr><td>3</td><td>Русский язык 325</td><td>Русский язык 325</td></tr>
+<tr><td>4</td><td>Общество 308</td><td>Общество 308</td></tr>
+<tr><td>5</td><td>ОБЗР 326</td><td>ОБЗР 326</td></tr>
+<tr><td>6</td><td>Английский 124/336</td><td>Английский 124/336</td></tr>
+<tr><td>7</td><td>Биология 135</td><td>Биология 135</td></tr>
+<tr><td>8</td><td>Родной язык 325</td><td>Родной язык 325</td></tr>
+</table>
+</div>
+
+<!-- ЧЕТВЕРГ -->
+<div class="day" id="thursday">
+<h2>Четверг</h2>
+<table>
+<tr><th>№</th><th>МИ</th><th>МФ</th></tr>
+<tr><td>1</td><td>Физика 231</td><td>Информатика 126</td></tr>
+<tr><td>2</td><td>История 309</td><td>История 309</td></tr>
+<tr><td>3</td><td>Геометрия 303</td><td>Геометрия 303</td></tr>
+<tr><td>4</td><td>Алгебра 303</td><td>Алгебра 303</td></tr>
+<tr><td>5</td><td>Литература 325</td><td>Литература 325</td></tr>
+<tr><td>6</td><td>Химия 329</td><td>Химия 329</td></tr>
+<tr><td>7</td><td>Информатика 103</td><td>Физика 231</td></tr>
+<tr><td>8</td><td>Физ-ра</td><td>Физ-ра</td></tr>
+</table>
+</div>
+
+<!-- ПЯТНИЦА -->
+<div class="day" id="friday">
+<h2>Пятница</h2>
+<table>
+<tr><th>№</th><th>МИ</th><th>МФ</th></tr>
+<tr><td>1</td><td>Информатика 105</td><td>Информатика 105</td></tr>
+<tr><td>2</td><td>Общество 310</td><td>Общество 310</td></tr>
+<tr><td>3</td><td>Физика 231</td><td>Информатика 105</td></tr>
+<tr><td>4</td><td>Литература 325</td><td>Литература 325</td></tr>
+<tr><td>5</td><td>Английский 124/336</td><td>Английский 124/336</td></tr>
+<tr><td>6</td><td>Вероятность 303</td><td>Вероятность 303</td></tr>
+<tr><td>7</td><td>Физ-ра</td><td>Физ-ра</td></tr>
+</table>
+</div>
+
+</div>
+
+<script>
+const today = new Date().getDay();
+const map = {1:"monday",2:"tuesday",3:"wednesday",4:"thursday",5:"friday"};
+if(map[today]){
+    document.getElementById(map[today]).classList.add("current-day");
+}
+</script>
+
+</body>
+</html>
